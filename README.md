@@ -5,8 +5,9 @@ Configurartion/Help/Links
 https://neomutt.org/man/neomutt
 
 ## Installation App
+```
 sudo apt install neomutt
-
+```
 ## Generiere eine Konfigurationsdatei
 ```
 mkdir ~/.config/mutt
@@ -15,5 +16,5 @@ touch muttrc
 
 ## Um die Datei mit zu bestücken, mit dem Editor öffnen
 ```
-> nano ~/.config/mutt
+nano ~/.config/mutt
 ```
