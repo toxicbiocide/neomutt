@@ -12,10 +12,9 @@ sudo apt install neomutt
 ```
 mkdir ~/.config/mutt
 touch muttrc
-```
+```zx2c4.com
 
 ## Um die Datei mit zu bestücken, mit dem Editor öffnen
 ```
 nano ~/.config/mutt
 ```
-Dies ./ist./  ein Test
