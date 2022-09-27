@@ -8,8 +8,10 @@ https://neomutt.org/man/neomutt
 sudo apt install neomutt
 
 ## Set Configuration File
-> mkdir ~/.config/mutt
-> touch muttrc
+...
+mkdir ~/.config/mutt
+touch muttrc
+...
 
 muttrc ist eine leere Konfigurationsdatei
 
