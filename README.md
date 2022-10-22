@@ -4,17 +4,38 @@ Configurartion/Help/Links
 ## Originator Website
 https://neomutt.org/man/neomutt
 
-## Installation App
+Installiere folgender Programme
 ```
-sudo apt install neomutt
+sudo apt install neomutt curl isync notmuch abook
 ```
-## Generiere eine Konfigurationsdatei
+Installiere mutt-wizard
 ```
-mkdir ~/.config/mutt
-touch muttrc
-```zx2c4.com
-
-## Um die Datei mit zu bestücken, mit dem Editor öffnen
+git clone https://github.com/lukesmithxyz/mutt-wizard
+cd mutt-wizard
+sudo make install
 ```
-nano ~/.config/mutt
+generiere GPG keypair
+```
+gpg --full-gen-key
+```
+wenn abgeschlossen, bilde einen pw container für die email adresse
+```
+pass init your@gpgpemail.com
+```
+Einstellung Gmail Account
+* 2FA login
+* App Passwort erstellen
+Account > Sicherheit > "Bei Google Anmelden" > App Passwörter
+(neues App Passwort generieren und zwischenspeichern)
+---
+## Mit mutt-wizard neomutt konfigurieren
+```
+mw -a deineemailægmail.com
+```
+Passwort eingeben (App-Passwort von Gmail)<br>
+Passwort bestätigen (App-Passwort von Gmail)<br>
+Pop-Up Fenster geht auf: Passphrase aus GPG eingeben<br>
+Meldung erscheint:
+```
+login successful
 ```
