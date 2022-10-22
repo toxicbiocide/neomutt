@@ -30,7 +30,7 @@ Account > Sicherheit > "Bei Google Anmelden" > App Passwörter
 ---
 ## Mit mutt-wizard neomutt konfigurieren
 ```
-mw -a deineemailægmail.com
+mw -a deineemail@gmail.com
 ```
 Passwort eingeben (App-Passwort von Gmail)<br>
 Passwort bestätigen (App-Passwort von Gmail)<br>
@@ -38,4 +38,12 @@ Pop-Up Fenster geht auf: Passphrase aus GPG eingeben<br>
 Meldung erscheint:
 ```
 login successful
+```
+Danach alle Emails einlesen mit dem Befehl
+```
+mw -y deinemail@gmail.com
+```
+Wenn abgeschlossen kann neomutt geöffnet und verwendet werden
+```
+neomutt
 ```
