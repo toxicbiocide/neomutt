@@ -1,5 +1,5 @@
 # neomutt
-Configurartion/Help/Links
+Configurartion/Help/Links - goal: work with googlemail
 
 ## Originator Website
 https://neomutt.org/man/neomutt
