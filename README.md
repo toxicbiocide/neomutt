@@ -6,7 +6,7 @@ https://neomutt.org/man/neomutt
 
 Installiere folgender Programme
 ```
-sudo apt install neomutt curl isync notmuch abook
+sudo apt install neomutt curl isync notmuch abook msmpt
 ```
 Installiere mutt-wizard
 ```
