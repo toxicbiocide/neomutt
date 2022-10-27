@@ -4,6 +4,9 @@ Configurartion/Help/Links - goal: work with googlemail
 ## Originator Website
 https://neomutt.org/man/neomutt
 
+## Documentation
+http://www.mutt.org/doc/manual/
+
 Installiere folgender Programme
 ```
 sudo apt install neomutt curl isync notmuch abook msmpt
