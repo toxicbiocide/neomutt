@@ -9,7 +9,7 @@ http://www.mutt.org/doc/manual/
 
 Installiere folgender Programme
 ```
-sudo apt install neomutt curl isync notmuch abook msmpt
+sudo pacman -S neomutt curl isync notmuch abook msmpt
 ```
 Installiere mutt-wizard
 ```
@@ -44,7 +44,7 @@ login successful
 ```
 Danach alle Emails einlesen mit dem Befehl
 ```
-mw -y deinemail@gmail.com
+mbsync -a
 ```
 Wenn abgeschlossen kann neomutt geöffnet und verwendet werden
 ```
