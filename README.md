@@ -12,7 +12,7 @@ http://www.mutt.org/doc/manual/
 
 Installiere folgender Programme
 ```
-sudo pacman -S neomutt isync notmuch msmpt
+sudo pacman -S neomutt isync notmuch msmpt-mta
 ```
 Installiere abook
 ```
