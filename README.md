@@ -12,7 +12,14 @@ http://www.mutt.org/doc/manual/
 
 Installiere folgender Programme
 ```
-sudo pacman -S neomutt isync notmuch abook msmpt
+sudo pacman -S neomutt isync notmuch msmpt
+```
+Installiere abook
+```
+git clone https://aur.archlinux.org/abook.git
+chmod +w abook
+cd abook
+sudo make install
 ```
 Installiere mutt-wizard
 ```
@@ -45,6 +52,16 @@ Meldung erscheint:
 ```
 login successful
 ```
+
+---
+Hilfedatei Macro Befehl umschreiben (anstelle von ```mw -Y``` setze ```mbsync -a```)<br>
+```
+sudo nano .config/mutt/accounts/deinemail@google.com.muttrc
+```
+Füge eine neue Zeile hinzu:
+***macro index O "<shell-escape>mbsync -a<enter>" "sync deinemail@google.com"***<br>
+
+---
 Danach alle Emails einlesen mit dem Befehl
 ```
 mbsync -a
