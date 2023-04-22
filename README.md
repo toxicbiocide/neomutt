@@ -1,6 +1,9 @@
 # neomutt
 Configurartion/Help/Links - goal: work with googlemail
 
+Installation on ArchLinux
+Tested on EndeavourOS
+
 ## Originator Website
 https://neomutt.org/man/neomutt
 
@@ -9,7 +12,7 @@ http://www.mutt.org/doc/manual/
 
 Installiere folgender Programme
 ```
-sudo pacman -S neomutt curl isync notmuch abook msmpt
+sudo pacman -S neomutt isync notmuch abook msmpt
 ```
 Installiere mutt-wizard
 ```
