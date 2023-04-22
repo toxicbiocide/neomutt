@@ -54,7 +54,7 @@ login successful
 ```
 
 ---
-Hilfedatei Macro Befehl umschreiben (anstelle von ```mw -Y``` setze ```mbsync -a```)<br>
+## Hilfedatei Macro Befehl umschreiben (anstelle von ```mw -Y``` setze ```mbsync -a```)<br>
 ```
 sudo nano .config/mutt/accounts/deinemail@google.com.muttrc
 ```
