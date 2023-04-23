@@ -18,7 +18,7 @@ Installiere abook
 ```
 git clone https://aur.archlinux.org/abook.git
 cd abook
-makepkg
+sudo pacman -S ~/abook/PKGBUILD 
 ```
 Installiere mutt-wizard
 ```
