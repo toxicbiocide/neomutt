@@ -17,9 +17,8 @@ sudo pacman -S neomutt isync notmuch msmtp-mta
 Installiere abook
 ```
 git clone https://aur.archlinux.org/abook.git
-chmod +w abook
 cd abook
-sudo make install
+makepkg
 ```
 Installiere mutt-wizard
 ```
