@@ -12,7 +12,7 @@ http://www.mutt.org/doc/manual/
 
 Installiere folgender Programme
 ```
-sudo pacman -S neomutt isync notmuch msmpt-mta
+sudo pacman -S neomutt isync notmuch msmtp-mta
 ```
 Installiere abook
 ```
@@ -52,19 +52,18 @@ Meldung erscheint:
 ```
 login successful
 ```
-
+Danach alle Emails einlesen mit dem Befehl
+```
+mbsync -a
+```
 ---
-## Hilfedatei Macro Befehl umschreiben (anstelle von ```mw -Y``` setze ```mbsync -a```)<br>
+## Hilfedatei Macro Befehl umschreiben - anstelle von ```mw -Y``` setze ```mbsync -a```<br>
 ```
 sudo nano .config/mutt/accounts/deinemail@google.com.muttrc
 ```
 Füge eine neue Zeile hinzu:
-***macro index O "<shell-escape>mbsync -a<enter>" "sync deinemail@google.com"***<br>
-
----
-Danach alle Emails einlesen mit dem Befehl
 ```
-mbsync -a
+macro index O "<shell-escape>mbsync -a<enter>" "sync deinemail@google.com"<br>
 ```
 Wenn abgeschlossen kann neomutt geöffnet und verwendet werden
 ```
