@@ -18,7 +18,7 @@ Installiere abook
 ```
 git clone https://aur.archlinux.org/abook.git
 cd abook
-sudo pacman -S ~/abook/PKGBUILD 
+sudo makepkg -si
 ```
 Installiere mutt-wizard
 ```
@@ -62,7 +62,7 @@ sudo nano .config/mutt/accounts/deinemail@google.com.muttrc
 ```
 Füge eine neue Zeile hinzu:
 ```
-macro index O "<shell-escape>mbsync -a<enter>" "sync deinemail@google.com"<br>
+macro index O "<shell-escape>mbsync -a<enter>" "sync deinemail@google.com"
 ```
 Wenn abgeschlossen kann neomutt geöffnet und verwendet werden
 ```
